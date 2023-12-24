@@ -3,9 +3,11 @@ int b = 12;
 
 if (a > b)
 {
-    Console.Writeline (a);
+    Console.WriteLine (a);
 }
+
 else
+
 {
-    Console.Writeline (b);
+    Console.WriteLine (b);
 }
