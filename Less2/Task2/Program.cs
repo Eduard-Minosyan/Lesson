@@ -2,7 +2,7 @@
 int[] arr = new int[n];
 int i = 0;
 
-while (i < n)
+while (i < arr.Length) // а так же можно провести сравнение таким образом (i < n)
 {
     arr [i] = i+1;
     // Console.Write(arr[i]);
